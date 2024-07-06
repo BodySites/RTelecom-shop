@@ -1,0 +1,198 @@
+@font-face {
+  font-display: swap;
+  font-family: 'RTelecom Basis';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../../public/fonts/RTelecom-Basis-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'RTelecom Basis';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../../public/fonts/RTelecom-Basis-Medium.woff') format('woff');
+}
+
+@font-face {
+  font-display: swap;
+  font-family: 'RTelecom Basis';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../public/fonts/RTelecom-Basis-Regular.woff') format('woff');
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+textarea,
+button,
+select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+  background: none;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+input[type='checkbox'] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 400;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+select {
+  font: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+address {
+  font-style: normal;
+}
+
+label {
+  cursor: pointer;
+}
+
+legend {
+  display: block;
+}
+
+body {
+  font-family: 'RTelecom Basis';
+  font-weight: 400;
+  background-color: #1d2533;
+  color: #e8e9ea;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #9466ff;
+  border-radius: 3px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #70f;
+}
+
+.container {
+  max-width: 1535px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.transition-opacity {
+  transition-property: opacity;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.duration {
+  transition-duration: 2s;
+}
+
+.overflow-hidden {
+  overflow-y: hidden;
+  padding-right: 8px;
+}
